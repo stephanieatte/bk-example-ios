@@ -1,13 +1,13 @@
 //
-//  myProjectUITestsLaunchTests.swift
-//  myProjectUITests
+//  StoryViewUITestsLaunchTests.swift
+//  StoryViewUITests
 //
 //  Created by Buildkite on 12/14/23.
 //
 
 import XCTest
 
-final class MyProjectUITestsLaunchTests: XCTestCase {
+final class StoryViewUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

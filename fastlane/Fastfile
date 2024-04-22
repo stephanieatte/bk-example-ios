@@ -17,7 +17,7 @@ default_platform(:ios)
 
 platform :ios do
   
-  project_path = "myProject/myProject.xcodeproj"
+  project_path = "storyView/storyView.xcodeproj"
 
   desc "Run iOS tests"
   lane :test do

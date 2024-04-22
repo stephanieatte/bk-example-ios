@@ -22,14 +22,14 @@
 			containerPortal = 93CD55DF2B2AC988009DC8D2 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 93CD55E62B2AC988009DC8D2;
-			remoteInfo = myProject;
+			remoteInfo = StoryView;
 		};
 		93CD56022B2AC989009DC8D2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 93CD55DF2B2AC988009DC8D2 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 93CD55E62B2AC988009DC8D2;
-			remoteInfo = myProject;
+			remoteInfo = StoryView;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -143,7 +143,7 @@
 			dependencies = (
 			);
 			name = storyView;
-			productName = myProject;
+			productName = StoryView;
 			productReference = 93CD55E72B2AC988009DC8D2 /* storyView.app */;
 			productType = "com.apple.product-type.application";
 		};
@@ -161,7 +161,7 @@
 				93CD55F92B2AC989009DC8D2 /* PBXTargetDependency */,
 			);
 			name = storyViewTests;
-			productName = myProjectTests;
+			productName = StoryViewTests;
 			productReference = 93CD55F72B2AC989009DC8D2 /* storyViewTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
@@ -179,7 +179,7 @@
 				93CD56032B2AC989009DC8D2 /* PBXTargetDependency */,
 			);
 			name = storyViewUITests;
-			productName = myProjectUITests;
+			productName = StoryViewUITests;
 			productReference = 93CD56012B2AC989009DC8D2 /* storyViewUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
@@ -422,7 +422,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"myProject/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"StoryView/Preview Content\"";
 				DEVELOPMENT_TEAM = 38KT755B6D;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -436,7 +436,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = buildkite.myProject;
+				PRODUCT_BUNDLE_IDENTIFIER = buildkite.StoryView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -453,7 +453,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"myProject/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"StoryView/Preview Content\"";
 				DEVELOPMENT_TEAM = 38KT755B6D;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -467,7 +467,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = buildkite.myProject;
+				PRODUCT_BUNDLE_IDENTIFIER = buildkite.StoryView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -486,7 +486,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = buildkite.myProjectTests;
+				PRODUCT_BUNDLE_IDENTIFIER = buildkite.StoryViewTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -505,7 +505,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = buildkite.myProjectTests;
+				PRODUCT_BUNDLE_IDENTIFIER = buildkite.StoryViewTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -522,12 +522,12 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = buildkite.myProjectUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = buildkite.StoryViewUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = myProject;
+				TEST_TARGET_NAME = StoryView;
 			};
 			name = Debug;
 		};
@@ -539,12 +539,12 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = buildkite.myProjectUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = buildkite.StoryViewUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = myProject;
+				TEST_TARGET_NAME = StoryView;
 			};
 			name = Release;
 		};

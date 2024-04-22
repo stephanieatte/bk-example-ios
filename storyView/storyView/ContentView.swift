@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  myProject
+//  StoryView
 //
 //  Created by Buildkite on 12/14/23.
 //

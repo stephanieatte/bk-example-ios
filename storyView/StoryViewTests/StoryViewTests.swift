@@ -1,14 +1,14 @@
 //
-//  myProjectTests.swift
-//  myProjectTests
+//  StoryViewTests.swift
+//  StoryViewTests
 //
 //  Created by Buildkite on 12/14/23.
 //
 
 import XCTest
-@testable import myProject
+@testable import storyView
 
-final class MyProjectTests: XCTestCase {
+final class StoryViewTests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
