@@ -44,7 +44,8 @@ platform :ios do
 
     gym(
       project: project_path,
-      clean: true
+      clean: true,
+      skip_codesigning: true
     )
   end
 end
