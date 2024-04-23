@@ -89,7 +89,9 @@
 				93CD56042B2AC989009DC8D2 /* StoryViewUITests */,
 				93CD55E82B2AC988009DC8D2 /* Products */,
 			);
+			indentWidth = 2;
 			sourceTree = "<group>";
+			tabWidth = 2;
 		};
 		93CD55E82B2AC988009DC8D2 /* Products */ = {
 			isa = PBXGroup;
