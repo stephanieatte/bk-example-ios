@@ -48,4 +48,10 @@ platform :ios do
       skip_codesigning: true
     )
   end
+
+  desc "Submit beta"
+  lane :beta do
+    # Here's where you would submit the build to TestFlight
+    puts "Empty lane"
+  end
 end
